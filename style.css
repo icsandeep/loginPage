@@ -1,3 +1,20 @@
 body{
     background: lightblue;
 }
+.inputWrapper{
+    width: 300px;
+}
+.inputWrapper button, 
+.inputWrapper input{
+    width: 300px;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 45px;
+}
+.loginInner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
